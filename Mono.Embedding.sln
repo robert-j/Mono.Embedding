@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Embedding.ThunkTool", "Mono.Embedding.ThunkTool\Mono.Embedding.ThunkTool.csproj", "{0BAB718A-8184-4C0B-817E-11419960C9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED2BF84-71DC-4360-AADC-8040051E6F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED2BF84-71DC-4360-AADC-8040051E6F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED2BF84-71DC-4360-AADC-8040051E6F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED2BF84-71DC-4360-AADC-8040051E6F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02105221-4328-4C7E-884F-E5C799FFD565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02105221-4328-4C7E-884F-E5C799FFD565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02105221-4328-4C7E-884F-E5C799FFD565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02105221-4328-4C7E-884F-E5C799FFD565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAB718A-8184-4C0B-817E-11419960C9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAB718A-8184-4C0B-817E-11419960C9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAB718A-8184-4C0B-817E-11419960C9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAB718A-8184-4C0B-817E-11419960C9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $3
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeIndexerDeclarationBracket = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.AlignToFirstMethodDeclarationParameter = False
+		$2.AlignToFirstIndexerDeclarationParameter = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$3.FileWidth = 120
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+EndGlobal
