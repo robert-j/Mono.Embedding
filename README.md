@@ -5,7 +5,7 @@
 This utility is generating C/C++ source code from an assembly which
 contains Thunk attributes.
 
-When applied to members, Thunk attributes (see ThunkAttribute class)
+When applied to members, `Thunk` attributes (see `ThunkAttribute` class)
 are instrucing ThunkTool to generate C/C++ callable thunks of these members.
 
 The ThunkAttribute class can (and should) be included inline
