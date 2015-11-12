@@ -33,8 +33,9 @@ The output will be stored into `prefix.c` and `prefix.h`.
 
 ### Example
 
-Input code (C#):
+#### Input code
 
+    // C##
     // assembly foo.dll
     namespace Foo {
       public class ExportMe {
@@ -58,11 +59,15 @@ Input code (C#):
       }
     }
 
+
+#### Invoke ThunkTool
+
 `mono ThunkTool.exe --output=foo foo.dll`
 
   
-Generated C/C++ header (`foo.h`):
-  
+#### Generated C/C++ header
+
+    // `foo.h`
     ...
     MonoClass *ExportMe__Class;   // Foo.ExportMe class
     int32_t (THUNKCALL *ExportMe_Method)(MonoObject **ex);
@@ -78,9 +83,10 @@ Generated C/C++ header (`foo.h`):
     // invokes the entry point of the assembly
     void Foo_Exec (void);
 
+
 In your own C++ code you should include the header, initialize the
 Mono runtime, load the assembly and pass it to `$(Assembly_Name)_Init ()`
-function. After this, all members attributed with `[Thunk]` are
+function. After that, all members attributed with `[Thunk]` are
 available for invocation. Additionally, all involved classes
 are available as `$(Assembly_Name)_$(ClassName)__Class` variables.
 
