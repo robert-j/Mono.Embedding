@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Embedding", "Mono.Embedding\Mono.Embedding.csproj", "{2ED2BF84-71DC-4360-AADC-8040051E6F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Embedding.Tests", "Mono.Embedding.Tests\Mono.Embedding.Tests.csproj", "{02105221-4328-4C7E-884F-E5C799FFD565}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.Embedding.ThunkTool", "Mono.Embedding.ThunkTool\Mono.Embedding.ThunkTool.csproj", "{0BAB718A-8184-4C0B-817E-11419960C9AA}"
 EndProject
 Global
