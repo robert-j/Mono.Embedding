@@ -5,6 +5,7 @@ namespace Mono.Embedding
     /// <summary>
     /// Automatically generated helper methods for UniversalDelegateServices.
     /// </summary>
+    [Serializable]
     internal static class ActionWrappers
     {
         public static Action Create0(UniversalDelegate d)
